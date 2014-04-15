@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Yellowmix_ConfigOverride>
+            <version>0.1</version>
+        </Yellowmix_ConfigOverride>
+    </modules>
+    <global>
+        <models>
+            <core>
+                <rewrite>
+                    <store>Yellowmix_ConfigOverride_Model_Store</store>
+                </rewrite>
+            </core>
+        </models>
+	</global>
+</config>

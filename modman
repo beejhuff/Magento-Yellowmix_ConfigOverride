@@ -1,0 +1,3 @@
+app/code/local/Yellowmix/ConfigOverride app/code/local/Yellowmix/ConfigOverride
+app/etc/local.csv.sample app/etc/local.csv.sample
+app/etc/modules/Yellowmix_ConfigOverride.xml app/etc/modules/Yellowmix_ConfigOverride.xml
