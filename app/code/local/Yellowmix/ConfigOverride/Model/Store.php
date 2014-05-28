@@ -65,11 +65,13 @@ class Yellowmix_ConfigOverride_Model_Store extends Mage_Core_Model_Store
      */
     public function getConfig($path)
     {
-        if ($this->_config == null)
-            $this->_loadOverrideConfigFile();
+        if ($this->_active) {
+            if ($this->_config == null)
+                $this->_loadOverrideConfigFile();
 
-        if (isset($this->_config[$path]))
-            return $this->_config[$path];
+            if (isset($this->_config[$path]))
+                return $this->_config[$path];
+        }
 
         return parent::getConfig($path);
     }
