@@ -16,3 +16,4 @@ After clone, there is no local.csv file located at app/etc, but a local.csv.samp
 
 The syntax is a path/value style, and you can also specify the target store or website.
 There's also the possibility to create environments (development, integration, etc...).
+Also, a path can be reused as a variable in a value using brackets: {path}.
